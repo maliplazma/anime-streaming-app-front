@@ -1,0 +1,63 @@
+.login{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.login__form__box{
+    background-image: url("images/shrine.jpg");
+    position: fixed;
+    top: 30px;
+    left: 900px;
+    width: 330px;
+    max-width: 500px;
+    height: 530px;
+    background-size: contain;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px;
+    border: 1;
+    border-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.login__form{
+    position: fixed;
+    justify-content: center;
+}
+
+.submit__login{
+    align-items: center;
+    background-color: #E8342D;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-top: 35px;
+    width: 130px;
+}
+
+

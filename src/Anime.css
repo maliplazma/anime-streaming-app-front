@@ -1,0 +1,145 @@
+.anime__page{
+    background-color: #0b0b0f;
+    height: 100%;
+    
+    color: white;
+  }
+  
+  .anime__name{
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+  }
+  
+  .genre__buttons{
+    float: left;
+    text-align: left !important;
+    margin-left: 40px;
+    
+  }
+
+  .anime__story{
+      margin-top: 40px;
+      margin-left: 40px;
+      max-width: 800px;
+  }
+
+  .time__icon{
+      color: white;
+  }
+
+  .icon__infos{
+      margin-left: 40px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+  }
+
+  .time__icon, .tv__icon, .pen__icon, .calendar__icon, .like__icon{
+      color: #E8342D;
+  }
+
+  .check__icons{
+    margin-left: 40px;
+  }
+
+  .watchlist__icon{
+    margin-left: 10px;
+    color: rgba(250, 235, 215, 0.92);
+    cursor: pointer;
+  }
+
+  .like__icon{
+    cursor: pointer;
+  }
+
+  .pair1{
+      margin-left: 70px;
+  }
+
+  .pair2{
+      margin-left: 100px;
+  }
+
+  .seasons{
+      margin-left: 40px;
+      margin-top: 60px;
+      max-width: 180px;
+      color: white;
+      background-color: #E8342D;
+      border-color: #E8342D;
+      border-radius: 5px;
+      height: 40px;
+  }
+
+  .seasons option:hover{
+    background-color: rgba(250, 235, 215, 0.712);
+    color: black;
+  }
+
+  .episode__button{
+    background-color: #E8342D;
+    border-color: #E8342D;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    width: 40px;
+    margin-right: 40px;
+  }
+
+.anime__video{
+    width: 970px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.red{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.text_screenshots{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.screenshot{
+    height: 120px;
+    width: 210px;
+}
+
+.comments{
+    font-family: "Japanese";
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.send__comment{
+    color: white;
+    background-color: #E8342D;
+    border-color: #E8342D;
+    border-radius: 50px;
+    width: 170px;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.comment__text{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 500px;
+    background-color: #2f2f37de;
+    color: white;
+    border-radius: 10px;
+    border-color: #2f2f37de;
+}
+
+

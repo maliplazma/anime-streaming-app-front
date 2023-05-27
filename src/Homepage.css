@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Japanese";   /*Can be any text*/
+    src: local("Japanese3017"),
+      url("./font/Japanese3017-Eljn.ttf") format("truetype");
+  }
+
+  .welcome{
+      font-family: "Japanese";
+      text-shadow: 1px 1px 2px #0000006a
+  }
+
+  .singup__button{
+      align-items: center;
+      background-color: #E8342D;
+      border: 0;
+      border-radius: 100px;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 16px;
+      font-weight: 600;
+      justify-content: center;
+      line-height: 20px;
+      max-width: 480px;
+      min-height: 40px;
+      min-width: 0px;
+      overflow: hidden;
+      padding: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+    
+  }
+
+
+  .singup__button:hover { 
+      background-color: #ffffff;
+      color: black;
+    }
+
+.login__button{
+    align-items: center;
+    background-color: transparent;
+    border: 1;
+    border-color: black;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.login__button:hover{
+    background-color: rgb(237, 215, 215);
+}
+.welcome{
+    margin-bottom: 20px;
+}
+
+.homepage{
+    background: url("https://wallpapercave.com/wp/wp5834145.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.welcome__div{
+    position: fixed;
+    top: 110px;
+    left: 120px;
+}
+    

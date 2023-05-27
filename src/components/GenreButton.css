@@ -1,0 +1,12 @@
+.genre__button{
+    background-color: transparent;
+    border-color: #E8342D;
+    border-style: thin;
+    border-radius: 10px;
+    color: antiquewhite;
+    border-style: solid;
+    border-width: thin;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 100px;
+}

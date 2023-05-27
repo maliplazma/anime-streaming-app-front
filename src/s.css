@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Japanese";   /*Can be any text*/
+    src: local("Japanese3017"),
+      url("./font/Japanese3017-Eljn.ttf") format("truetype");
+  }
+
+.signup{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.signup__box{
+    position: fixed;
+    top: 30px;
+    left: 100px;
+    max-width: 360px;
+    height: 530px;
+    background-image: url("images/shrine.jpg");
+    background-size: contain;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px;
+    border: 1;
+    border-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.cretae_accout__title{
+    padding: 20px;
+    font-family: Japanese;
+    text-align: center;
+    text-shadow: 2px 2px 4px #0000006a;
+}
+
+
+.submit__signup{
+    align-items: center;
+    background-color: #E8342D;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-top: 35px;
+    width: 130px;
+}
+
+.input__text{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-bottom: 0.5;
+    border-bottom-color: rgba(250, 235, 215, 0.836);
+    border-width: thin;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 250px;
+    color: antiquewhite;
+}
+
+
+

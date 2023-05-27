@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Japanese";   /*Can be any text*/
+    src: local("Japanese3017"),
+      url("./font/Japanese3017-Eljn.ttf") format("truetype");
+  }
+

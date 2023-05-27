@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Japanese";   /*Can be any text*/
+    src: local("Japanese3017"),
+      url("./font/Japanese3017-Eljn.ttf") format("truetype");
+  }
+
+
+html, body{
+    background-color: #0b0b0f;
+    height: 100vp;
+    padding: 0;
+}
+
+.home{
+    background-color: #0b0b0f;
+    color: white;
+    height: 100vh;
+    margin-top: 0;
+}
+
+
+.popular__genres{
+    font-family: "Japanese";
+    margin-left: 75px;
+    margin-top: 50px;
+    padding-bottom: 0;
+}
+
+.popular__animes{
+    font-family: "Japanese";
+    margin-top: 50px;
+}

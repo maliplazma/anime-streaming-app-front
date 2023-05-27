@@ -1,0 +1,42 @@
+.profile{
+    color: white;
+}
+
+.avatar{
+    height: 250px;
+    width: 270px;
+    border-radius: 20%;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.about{
+    margin-top: 100px;
+}
+
+.about, .about__{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.edit__profile{
+    background-color: transparent;
+    border-color: #E8342D;
+    border-style: thin;
+    border-radius: 10px;
+    color: antiquewhite;
+    border-style: solid;
+    border-width: thin;
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+.favorite__link{
+    text-decoration: none;
+    color: black;
+}
+
+.favorite__link:hover{
+    color: white;
+}

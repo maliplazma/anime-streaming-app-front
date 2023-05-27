@@ -1,0 +1,21 @@
+.anime__image{
+    width: 180px;
+    height: 260px;
+    border-radius: 10px; 
+    margin-bottom: 5px;
+}
+
+.anime__card{
+    padding: 0;
+    width: 180px;
+    height: 320px;
+    transition: transform .6s;
+    display: block;
+}
+
+
+.par{
+    font-size: 13px;
+    color: rgba(245, 245, 245, 0.616);
+}
+

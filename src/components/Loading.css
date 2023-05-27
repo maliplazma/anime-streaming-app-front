@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Japanese";   /*Can be any text*/
+    src: local("Japanese3017"),
+      url("../font/Japanese3017-Eljn.ttf") format("truetype");
+  }
+
+.loading__title{
+    font-family: "Japanese";
+    color: white;
+}
+
+.loading__div{
+  position: absolute;
+  top:250px;
+  left: 550px;
+}
+

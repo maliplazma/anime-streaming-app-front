@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Japanese";   /*Can be any text*/
+  src: local("Japanese3017"),
+    url("../font/Japanese3017-Eljn.ttf") format("truetype");
+}
+
+.sakura{
+  font-family: "Japanese";
+  display: inline;
+  justify-content: space-between;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.icon__navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.search__text{
+  border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-bottom: 0.5;
+    border-bottom-color: rgba(250, 235, 215, 0.836);
+    border-width: thin;
+    max-width: 400px;
+    width: 300px;
+    color: rgb(203, 194, 194);
+}
+
+
+.options{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__icon{
+  margin-right: 10px;
+}
+
+.profile__icon{
+  margin-right: 10px;
+}
+
+.dropdown__menu{
+  margin-right: 30px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-right: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.719);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #f0f7f0a9;}
+
+.signout__dropdown{
+  cursor: pointer;
+}
+
+.search__content{
+  display: none;
+  position: absolute;
+  background-color: #0b0b0fa7;
+  min-width: 230px;
+  border: none;
+  z-index: 1;
+  color: white;
+  width: 300px;
+}
+
+.search__content div{
+  height: 30px;
+  padding-left: 10px;
+}
+
+.search__content div:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+
+.search{
+  position: relative;
+  display: inline-block;
+}
+
